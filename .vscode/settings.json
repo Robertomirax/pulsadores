@@ -1,0 +1,17 @@
+{
+    "python.linting.enabled": true,
+    "python.jediEnabled": false,
+
+    // Loaded Stubs:  esp32-1.17.0 
+    "python.autoComplete.extraPaths": [".micropy\\esp32-1.17.0\\frozen", ".micropy\\esp32-1.17.0\\stubs", ".micropy\\pulsadores"],
+    "python.autoComplete.typeshedPaths":  [".micropy\\esp32-1.17.0\\frozen", ".micropy\\esp32-1.17.0\\stubs", ".micropy\\pulsadores"],
+    "python.analysis.typeshedPaths":  [".micropy\\esp32-1.17.0\\frozen", ".micropy\\esp32-1.17.0\\stubs", ".micropy\\pulsadores"],
+
+    "python.linting.pylintEnabled": true,
+    "python.languageServer": "Pylance",
+    "python.analysis.extraPaths": [
+        ".micropy\\esp32-1.17.0\\frozen",
+        ".micropy\\esp32-1.17.0\\stubs",
+        ".micropy\\pulsadores"
+    ]
+}
